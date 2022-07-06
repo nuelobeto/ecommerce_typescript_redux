@@ -36,7 +36,7 @@ function Product(props: ProductType) {
     <div className="product">
       <div className="product_image">
         <img
-          src={`/src/images/${props.product.image}`}
+          src={`./src/images/${props.product.image}`}
           alt=""
           onClick={() => navigate(`/product-details/${props.product.id}`)}
         />
