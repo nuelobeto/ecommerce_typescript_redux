@@ -142,11 +142,11 @@ function Navbar() {
                   </>
                 )}
               </li>
-              <li>
-                <BiHeart onClick={() => navigate("/saved")} />
+              <li onClick={() => navigate("/saved")}>
+                <BiHeart />
               </li>
-              <li>
-                <BiCart onClick={() => navigate("/cart")} /> {totalItems()}
+              <li onClick={() => navigate("/cart")}>
+                <BiCart /> {totalItems()}
               </li>
             </ul>
           </div>
