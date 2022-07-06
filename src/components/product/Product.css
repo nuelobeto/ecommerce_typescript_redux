@@ -1,0 +1,39 @@
+.product {
+  border: 3px solid var(--grey);
+  background-color: var(--grey);
+}
+
+.product:hover {
+  cursor: pointer;
+}
+
+.product_image {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-color: white;
+  position: relative;
+}
+
+.product_image img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.product p {
+  padding: 5%;
+}
+
+.product h4 {
+  padding: 0 5% 5%;
+}
+
+.save {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.save svg {
+  font-size: 25px;
+}
