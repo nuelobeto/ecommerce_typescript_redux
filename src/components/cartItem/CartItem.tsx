@@ -26,7 +26,7 @@ function CartItem(props: CartItemType) {
 
   return (
     <div className="cart_item">
-      <img src={`/src/images/${props.product.image}`} alt="" />
+      <img src={`/images/${props.product.image}`} alt="" />
       <div className="cart_item_desc">
         <p>{props.product.name}</p>
         <h4>${props.product.price}</h4>

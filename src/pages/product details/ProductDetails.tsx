@@ -47,7 +47,7 @@ function ProductDetails() {
       <section className="product_details">
         <div className="product_details_one container">
           <div className="product_details_image">
-            <img src={`/src/images/${product?.image}`} alt="" />
+            <img src={`/images/${product?.image}`} alt="" />
           </div>
           <div className="product_details_description">
             <p className="details_name">{product?.name}</p>
@@ -65,11 +65,11 @@ function ProductDetails() {
         <div className="product_details_two">
           <h2>You may also like:</h2>
           <div className="also_like">
-            <img src="/src/images/facial_serum.jpg" alt="" />
-            <img src="/src/images/hair.jpg" alt="" />
-            <img src="/src/images/womens_suit.jpg" alt="" />
-            <img src="/src/images/Gshock.jpg" alt="" />
-            <img src="/src/images/beard_oil.jpg" alt="" />
+            <img src="/images/facial_serum.jpg" alt="" />
+            <img src="/images/hair.jpg" alt="" />
+            <img src="/images/womens_suit.jpg" alt="" />
+            <img src="/images/Gshock.jpg" alt="" />
+            <img src="/images/beard_oil.jpg" alt="" />
           </div>
         </div>
       </section>
